@@ -307,7 +307,7 @@ body {
 
 }
 
-/* 
+
 .landing .text-intro span::before {
     content: "";
     border-width: 20px;
@@ -323,8 +323,9 @@ body {
     animation-timing-function: linear;
     animation-direction: alternate;
 
-} */
-/* 
+}
+
+
 @keyframes emran2 {
     0% {
         transform: translate(0%,
@@ -350,9 +351,9 @@ body {
         transform: translate(0%,
                 90px);
     }
-} */
+}
 
-/* 
+
 .landing .text-intro span::after {
     position: absolute;
     top: 80%;
@@ -365,7 +366,7 @@ body {
     background-color: #ddd;
     padding: 3px;
 
-} */
+}
 
 @media (min-width: 190px) {
     .landing .text-intro span {
