@@ -84,14 +84,14 @@ body {
 .header {
     padding: 25px;
     background-color: #5372ef;
-    /* background-color: rgb(116 200 233 / 44%);
+    background-color: rgb(116 200 233 / 44%);
     animation-name: emran1;
     animation-duration: 5s;
     text-align: center;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
-    animation-delay: 2s; */
+    animation-delay: 2s;
 }
 
 @keyframes emran1 {
