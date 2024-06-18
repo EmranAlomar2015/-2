@@ -476,3 +476,49 @@ body {
         display: none;
     }
 }
+
+.images {
+    margin-top: 30px;
+    position: relative;
+}
+
+.images .container {
+    background-color: #5efabf;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(3, 1fr));
+
+}
+
+@media (max-width: 750px) {
+    .images .text-gelary {
+        text-align: center;
+    }
+}
+
+
+.images .imeg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.images img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    padding-top: -40px;
+}
+
+/* 
+.images .imeg div {
+    width: 200px;
+    height: 200px;
+    border: red 2px solid;
+
+}
+
+.images .imeg div img {
+    width: 100%;
+    height: 100%;
+} */
